@@ -1,86 +1,19 @@
 {
   "articles": [
     {
-      "id": 1,
-      "name": "ffffffffffffffffffffffffff"
+      "title": "Hi Im Joey",
+      "description": "I teach all things javascript and javascript related",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Danielle"
+      "title": "Hi Im brandon",
+      "description": "Im learning Javascript!",
+      "id": 2
     },
     {
-      "name": "Kaylee",
+      "title": "Hi im dj",
+      "description": "I love cock",
       "id": 3
-    },
-    {
-      "id": 4
-    },
-    {
-      "id": 5
-    },
-    {
-      "id": 6
-    },
-    {
-      "id": 7
-    },
-    {
-      "id": 8
-    },
-    {
-      "x": "fdas",
-      "y": "fdsa",
-      "id": 9
-    },
-    {
-      "title": "gbfds",
-      "description": "bfvds",
-      "id": 10
-    },
-    {
-      "title": "fda",
-      "description": "fdas",
-      "id": 11
-    },
-    {
-      "title": "ngfnhfg",
-      "description": "bnfgjhn",
-      "id": 12
-    },
-    {
-      "title": "gfds",
-      "description": "gfds",
-      "id": 13
-    },
-    {
-      "title": "ghf",
-      "descrition": "hbfg",
-      "id": 14
-    },
-    {
-      "title": "fds",
-      "descrition": "fds",
-      "id": 15
-    },
-    {
-      "title": "fd",
-      "descrition": "fds",
-      "id": 16
-    },
-    {
-      "title": "fds",
-      "descrition": "fds",
-      "id": 17
-    },
-    {
-      "title": "fdsfd",
-      "descrition": "fdfsd",
-      "id": 18
-    },
-    {
-      "title": "fdsf",
-      "descrition": "ds",
-      "id": 19
     }
   ]
 }
