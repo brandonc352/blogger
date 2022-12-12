@@ -1,0 +1,185 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "MOUSEOVER ELEMENT",
+      "description": "You’ll see how JavaScript functions work and practice your JavaScript logic",
+      "date": "2/10/2002",
+      "pageURL": "javascript-logic"
+    },
+    {
+      "id": 2,
+      "title": "CLOCK",
+      "description": "You get hands-on with the kind of actual work you’ll be doing as a JavaScript developer",
+      "date": "7/7/2002",
+      "pageURL": "hands-on-js"
+    },
+    {
+      "id": 3,
+      "title": "MAGIC 8 BALL",
+      "description": "It gives you a solid foundation for how to use Math.random to produce randomized results for JavaScript projects",
+      "date": "7/12/2002",
+      "pageURL": "ja-math-random"
+    },
+    {
+      "id": 4,
+      "title": "BUILD A TO-DO LIST",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "group-items"
+    },
+    {
+      "id": 5,
+      "title": "EPIC MIX PLAYLIST",
+      "description": "It helps you practice core JavaScript skills, such as forEach loops and event listeners, and work with functions and lists",
+      "date": "7/9/2002",
+      "pageURL": "some-js-basics"
+    },
+    {
+      "id": 6,
+      "title": "PET RESCUE",
+      "description": "It gives you a solid foundation for understanding factory function patterns and parameters ",
+      "date": "6/17/2002",
+      "pageURL": "factory-functions"
+    },
+    {
+      "id": 7,
+      "title": "DRUM KIT",
+      "description": "You can see the interaction between seeing elements on the page and listening to sound and learning how to add and remove elements",
+      "date": "12/22/2002",
+      "pageURL": "elements-with-js"
+    },
+    {
+      "id": 8,
+      "title": "SPEECH DETECTION",
+      "description": "It gives you a basis for understanding how speech detection works, which is good (and very cool!) to know ",
+      "date": "8/15/2002",
+      "pageURL": "speech-detection-basics"
+    },
+    {
+      "id": 9,
+      "title": "STICKY NAVIGATION",
+      "description": "It teaches you how to keep your elements in a fixed position on a page, which is a skill you might need in your front end developer role ",
+      "date": "7/7/2002",
+      "pageURL": "fixed-position-elements"
+    },
+    {
+      "id": 10,
+      "title": "GEOLOCATION",
+      "description": "You can learn more about how to develop for mobile, how geolocation works, and how to test your code using simulators or a different device",
+      "date": "10/24/2002",
+      "pageURL": "mobile-geo-sims"
+    },
+    {
+      "date": "2022-12-07",
+      "pageURL": "fdsa",
+      "title": "fdsa",
+      "description": "fdsa",
+      "id": 11
+    },
+    {
+      "date": "2022-12-06",
+      "pageURL": "fdsa",
+      "title": "hgfd",
+      "description": "fda",
+      "id": 12
+    },
+    {
+      "date": "2022-12-09",
+      "pageURL": "3333333333333333",
+      "title": "111111111",
+      "description": "222222222",
+      "id": 13
+    },
+    {
+      "date": "2022-12-06",
+      "pageURL": "fga",
+      "title": "gvfds",
+      "description": "gfdas",
+      "id": 14
+    },
+    {
+      "date": "2022-12-21",
+      "pageURL": "fdas",
+      "title": "fdas",
+      "description": "fdsa",
+      "id": 15
+    }
+  ],
+
+  "blocks": [
+    {
+      "id": 1,
+      "title": "Front Page",
+      "pageIDs": [1]
+    },
+    {
+      "id": 2,
+      "title": "Footer Links",
+      "pageIDs": [2, 3]
+    },
+    {
+      "id": 3,
+      "title": "Similar Topics",
+      "pageIDs": [1, 2, 3]
+    }
+  ],
+
+  "menus": [
+    {
+      "id": 1,
+      "title": "Front Page",
+      "pageIDs": [1]
+    },
+    {
+      "id": 2,
+      "title": "Footer Links",
+      "pageIDs": [2, 3]
+    },
+    {
+      "id": 3,
+      "title": "Similar Topics",
+      "pageIDs": [1, 2, 3]
+    }
+  ],
+
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Front Page",
+      "pageIDs": [1],
+      "menusId": 2
+    },
+    {
+      "id": 2,
+      "title": "Footer Links",
+      "pageIDs": [2, 3],
+      "menusId": 3
+    },
+    {
+      "id": 3,
+      "title": "Similar Topics",
+      "pageIDs": [1, 4],
+      "menusId": 3
+    }
+  ],
+
+  "pages": [
+    {
+      "id": 1,
+      "title": "Front Page",
+      "pageIDs": [1]
+      
+    },
+    {
+      "id": 2,
+      "title": "Footer Links",
+      "pageIDs": [2, 3]
+    },
+    {
+      "id": 3,
+      "title": "Similar Topics",
+      "pageIDs": [1, 2, 3]
+    }
+  ]
+}

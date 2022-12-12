@@ -1,86 +1,869 @@
 {
-  "articles": [
+  "page": [
     {
       "id": 1,
-      "name": "ffffffffffffffffffffffffff"
+      "title": "Home",
+      "urlPath": "index.html"
     },
     {
       "id": 2,
-      "name": "Danielle"
+      "title": "Blog Post",
+      "urlPath": "post"
     },
     {
-      "name": "Kaylee",
-      "id": 3
+      "id": 3,
+      "title": "Basic Page",
+      "urlPath": "page"
     },
     {
-      "id": 4
+      "id": 4,
+      "title": "List Blog Posts",
+      "urlPath": "posts"
     },
     {
-      "id": 5
+      "id": 5,
+      "title": "List Basic Pages",
+      "urlPath": "pages"
+    }
+  ],
+  "section": [
+    {
+      "id": 1,
+      "title": "top",
+      "pageIds": [1, 2, 3, 4, 5],
+      "positionWeight": 1
     },
     {
-      "id": 6
+      "id": 2,
+      "title": "header",
+      "pageIds": [1, 2, 3, 4, 5],
+      "positionWeight": 2
     },
     {
-      "id": 7
+      "id": 3,
+      "title": "frontOnly",
+      "pageIds": [1],
+      "positionWeight": 3
     },
     {
-      "id": 8
+      "id": 8,
+      "title": "content",
+      "pageIds": [],
+      "positionWeight": 4
     },
     {
-      "x": "fdas",
-      "y": "fdsa",
-      "id": 9
+      "id": 10,
+      "title": "blogPost",
+      "pageIds": [2],
+      "positionWeight": 8
     },
     {
-      "title": "gbfds",
-      "description": "bfvds",
-      "id": 10
+      "id": 11,
+      "title": "basicPage",
+      "pageIds": [3],
+      "positionWeight": 8
     },
     {
-      "title": "fda",
-      "description": "fdas",
-      "id": 11
+      "id": 12,
+      "title": "blogPosts",
+      "pageIds": [4],
+      "positionWeight": 8
     },
     {
-      "title": "ngfnhfg",
-      "description": "bnfgjhn",
-      "id": 12
+      "id": 13,
+      "title": "basicPages",
+      "pageIds": [5],
+      "positionWeight": 8
     },
     {
-      "title": "gfds",
-      "description": "gfds",
-      "id": 13
+      "id": 4,
+      "title": "blogPostRight",
+      "pageIds": [2],
+      "positionWeight": 5
     },
     {
-      "title": "ghf",
-      "descrition": "hbfg",
-      "id": 14
+      "id": 5,
+      "title": "basicPageRight",
+      "pageIds": [2],
+      "positionWeight": 6
     },
     {
-      "title": "fds",
-      "descrition": "fds",
-      "id": 15
+      "id": 9,
+      "title": "middle",
+      "pageIds": [4, 5],
+      "positionWeight": 8
     },
     {
-      "title": "fd",
-      "descrition": "fds",
-      "id": 16
+      "id": 6,
+      "title": "footer",
+      "pageIds": [1, 2, 3, 4, 5],
+      "positionWeight": 7
     },
     {
-      "title": "fds",
-      "descrition": "fds",
-      "id": 17
+      "id": 7,
+      "title": "bottom",
+      "pageIds": [1, 2, 3, 4, 5],
+      "positionWeight": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": 2,
+      "title": "Related Content",
+      "published": true,
+      "sectionId": 0,
+      "type": "custom"
     },
     {
-      "title": "fdsfd",
-      "descrition": "fdfsd",
-      "id": 18
+      "id": 3,
+      "title": "Logo",
+      "published": true,
+      "sectionId": 1,
+      "type": "image"
     },
     {
-      "title": "fdsf",
-      "descrition": "ds",
-      "id": 19
+      "id": 4,
+      "title": "Front Welcome Image",
+      "published": true,
+      "sectionId": 1,
+      "type": "image"
+    },
+    {
+      "id": 9,
+      "title": "Footer Text",
+      "published": true,
+      "sectionId": 6,
+      "type": "text"
+    },
+    {
+      "id": 22,
+      "title": "General",
+      "published": true,
+      "sectionId": 6,
+      "type": "menu"
+    },
+    {
+      "id": 5,
+      "title": "Legal",
+      "published": true,
+      "sectionId": 6,
+      "type": "menu"
+    },
+    {
+      "id": 6,
+      "title": "Contact",
+      "published": true,
+      "sectionId": 6,
+      "type": "menu"
+    },
+    {
+      "id": 7,
+      "title": "Main Menu",
+      "published": true,
+      "sectionId": 2,
+      "type": "menu"
+    },
+    {
+      "id": 26,
+      "title": "Recently Added Blog Posts",
+      "published": true,
+      "sectionId": 4,
+      "type": "custom"
+    },
+    {
+      "id": 10,
+      "title": "Sitemap Block",
+      "published": true,
+      "sectionId": 0,
+      "type": "menu"
+    },
+    {
+      "id": 11,
+      "title": "Newsletter Signup Block",
+      "published": true,
+      "sectionId": 4,
+      "type": "custom"
+    },
+    {
+      "id": 12,
+      "title": "Footer Disclaimer",
+      "published": true,
+      "sectionId": 7,
+      "type": "text"
+    },
+    {
+      "id": 13,
+      "title": "Company Slogan Block",
+      "published": true,
+      "sectionId": 0,
+      "type": "text"
+    },
+    {
+      "id": 14,
+      "title": "Blog Post",
+      "published": true,
+      "sectionId": 10,
+      "type": "content"
+    },
+    {
+      "id": 15,
+      "title": "Basic Page",
+      "published": true,
+      "sectionId": 11,
+      "type": "content"
+    },
+    {
+      "id": 16,
+      "title": "Blog Posts",
+      "published": true,
+      "sectionId": 12,
+      "type": "content"
+    },
+    {
+      "id": 17,
+      "title": "Basic Pages",
+      "published": true,
+      "sectionId": 13,
+      "type": "content"
+    },
+    {
+      "id": 21,
+      "title": "Big Front Image",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 18,
+      "title": "3400+ Cleings",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 19,
+      "title": "541 Creators",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 20,
+      "title": "42 Staff",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 1,
+      "title": "Front Page Content Block",
+      "published": true,
+      "sectionId": 3,
+      "type": "custom"
+    },
+    {
+      "id": 8,
+      "title": "Copyright/Trademakd",
+      "published": true,
+      "sectionId": 7,
+      "type": "text"
+    },
+    {
+      "id": 26,
+      "title": "Services",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 27,
+      "title": "About Us",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 28,
+      "title": "Together We All Win!",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 30,
+      "title": "We Are Doing It!",
+      "published": true,
+      "sectionId": 3,
+      "type": "text"
+    },
+    {
+      "id": 31,
+      "title": "Instructions to present",
+      "published": true,
+      "sectionId": 3,
+      "type": "text"
+    },
+    {
+      "id": 32,
+      "title": "Rquest Demo",
+      "published": true,
+      "sectionId": 3,
+      "type": "menu"
+    },
+    {
+      "id": 34,
+      "title": "What we do?",
+      "published": true,
+      "sectionId": 3,
+      "type": "text"
+    },
+    {
+      "id": 33,
+      "title": "Excluive service",
+      "published": true,
+      "sectionId": 3,
+      "type": "text"
+    },
+    {
+      "id": 29,
+      "title": "The patch solves..",
+      "published": true,
+      "sectionId": 3,
+      "type": "text"
+    },
+    {
+      "id": 23,
+      "title": "Construction Consulatation",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 24,
+      "title": "House Renovation",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    },
+    {
+      "id": 25,
+      "title": "Architecture & Building",
+      "published": true,
+      "sectionId": 3,
+      "type": "image"
+    }
+  ],
+
+  "block_custom": [
+    {
+      "id": 1,
+      "title": "Newsletter Signup",
+      "published": true,
+      "blockId": 11,
+      "machineName": "newsLetterSignup"
+    },
+    {
+      "id": 2,
+      "title": "Recently Added Blog Posts",
+      "published": true,
+      "blockId": 9,
+      "machineName": "recentlyAddedBlogs"
+    },
+    {
+      "id": 3,
+      "title": "Related Content",
+      "published": true,
+      "blockId": 2,
+      "machineName": "relatedContent"
+    }
+  ],
+  "block_text": [
+    {
+      "id": 3,
+      "title": "Top10Best Builders!",
+      "published": true,
+      "blockId": 9,
+      "displayText": "\"betterbusiness\" is one of the leading comparison websites worldwide. Our mission is to provide all the information and insights freelancers and small to medium-sized businesses need to start building and strengthening their online presence."
+    },
+    {
+      "id": 1,
+      "title": "Copyright/Trademakd",
+      "published": true,
+      "blockId": 8,
+      "displayText": "©2022 WebsitePlanet.com. All Rights Reserved."
+    },
+    {
+      "id": 2,
+      "title": "Company Slogan",
+      "published": true,
+      "blockId": 13,
+      "displayText": "Let us have your money!"
+    },
+    {
+      "id": 4,
+      "title": "Footer Disclaimer",
+      "published": true,
+      "blockId": 12,
+      "displayText": "The information in this site is based on different reviews made by third parties, as well as own view and sources. Certain details, including but not limited to prices and special offers, are provided to us directly from our partners and are dynamic and subject to change at any time without prior notice. Although we make every effort to ensure all prices are accurate, we cannot guarantee that they are always up to date. Free offers may be subject to additional terms. Though based on meticulous research, the information we share does not constitute legal or professional advice or forecast, and should not be treated as such. Reproduction in whole or in part in any form or medium without express written permission of betterbusiness GmbH is strictly prohibited."
+    },
+    {
+      "id": 8,
+      "title": "What we do?",
+      "published": true,
+      "blockId": 34,
+      "displayText": "What we do?"
+    },
+    {
+      "id": 8,
+      "title": "Exclusive Service",
+      "published": true,
+      "blockId": 33,
+      "displayText": "Exclusive Service"
+    },
+    {
+      "id": 5,
+      "title": "The patch solves...",
+      "published": true,
+      "blockId": 29,
+      "displayText": "The patch solves the duplicate reference for the append/prepend selections. But in the case of multistep selection, it still an issue. I am trying to work on it."
+    },
+    {
+      "id": 6,
+      "title": "We Are Doing It!",
+      "published": true,
+      "blockId": 30,
+      "displayText": "We Are Doing It!"
+    },
+    {
+      "id": 7,
+      "title": "Instructions to present..!",
+      "published": true,
+      "blockId": 31,
+      "displayText": "Instructions to present to the user below this field on the editing form."
+    }
+  ],
+
+  "block_image": [
+    {
+      "id": 1,
+      "title": "Logo",
+      "published": true,
+      "blockId": 3,
+      "imageURL": "/../images/buildlogo.png"
+    },
+    {
+      "id": 2,
+      "title": "Main Logo",
+      "published": true,
+      "blockId": 4,
+      "imageURL": "/../images/hours.png"
+    },
+    {
+      "id": 6,
+      "title": "Big front menu",
+      "published": true,
+      "blockId": 21,
+      "imageURL": "/../images/frontpic.png"
+    },
+    {
+      "id": 3,
+      "title": "3400+ Clients",
+      "published": true,
+      "blockId": 18,
+      "imageURL": "/../images/3400clients.png"
+    },
+    {
+      "id": 4,
+      "title": "541 Creators",
+      "published": true,
+      "blockId": 19,
+      "imageURL": "/../images/541creators.png"
+    },
+    {
+      "id": 5,
+      "title": "42 Staff",
+      "published": true,
+      "blockId": 20,
+      "imageURL": "/../images/42staff.png"
+    },
+    {
+      "id": 7,
+      "title": "Construction Consultation",
+      "published": true,
+      "blockId": 23,
+      "imageURL": "/../images/constconsu.png"
+    },
+    {
+      "id": 8,
+      "title": "House Renovation",
+      "published": true,
+      "blockId": 24,
+      "imageURL": "/../images/housereno.png"
+    },
+    {
+      "id": 9,
+      "title": "Architecture & Building",
+      "published": true,
+      "blockId": 25,
+      "imageURL": "/../images/arcbuild.png"
+    },
+    {
+      "id": 10,
+      "title": "Services",
+      "published": true,
+      "blockId": 26,
+      "imageURL": "/../images/people1.png"
+    },
+    {
+      "id": 11,
+      "title": "About Us",
+      "published": true,
+      "blockId": 27,
+      "imageURL": "/../images/people2.png"
+    },
+    {
+      "id": 12,
+      "title": "Together We All Win!",
+      "published": true,
+      "blockId": 28,
+      "imageURL": "/../images/people3.png"
+    }
+  ],
+
+  "block_menu": [
+    {
+      "id": 1,
+      "title": "Sitemap",
+      "published": true,
+      "blockId": 10
+    },
+    {
+      "id": 2,
+      "title": "Main",
+      "published": true,
+      "blockId": 7
+    },
+    {
+      "id": 3,
+      "title": "Legal",
+      "published": true,
+      "blockId": 5
+    },
+    {
+      "id": 4,
+      "title": "Footer",
+      "published": true,
+      "blockId": 6
+    },
+    {
+      "id": 5,
+      "title": "General",
+      "published": true,
+      "blockId": 22
+    },
+    {
+      "id": 6,
+      "title": "Legal",
+      "published": true,
+      "blockId": 6
+    },
+    {
+      "id": 7,
+      "title": "Contact",
+      "published": true,
+      "blockId": 6
+    },
+    {
+      "id": 7,
+      "title": "Requst a Demo",
+      "published": true,
+      "blockId": 32
+    }
+  ],
+  "block_wysiwyg": [],
+
+  "menuItems": [
+    {
+      "id": 1,
+      "title": "Home",
+      "menuId": 2,
+      "url": "/home"
+    },
+    {
+      "id": 2,
+      "title": "About Me",
+      "menuId": 2,
+      "url": "/page/about-me"
+    },
+    {
+      "id": 3,
+      "title": "Services",
+      "menuId": 2,
+      "url": "/page/services"
+    },
+    {
+      "id": 4,
+      "title": "Contact Info.",
+      "menuId": 2,
+      "url": "/page/contact-info"
+    },
+    {
+      "id": 5,
+      "title": "Terms of Service",
+      "menuId": 3,
+      "url": "/page/terms-of-service"
+    },
+    {
+      "id": 6,
+      "title": " Free Quote ",
+      "menuId": 2,
+      "url": "/page/free-quote"
+    },
+    {
+      "id": 7,
+      "title": " Privacy Policy ",
+      "menuId": 3,
+      "url": "/page/privacy-policy"
+    },
+    {
+      "id": 8,
+      "title": " Menu Item Eigh t",
+      "menuId": 1,
+      "url": "/page/eight"
+    },
+    {
+      "id": 9,
+      "title": " Menu Item Nine ",
+      "menuId": 1,
+      "url": "/page/nine"
+    },
+    {
+      "id": 10,
+      "title": " Menu Item Ten ",
+      "menuId": 1,
+      "url": "/page/hotenme"
+    },
+    {
+      "id": 11,
+      "title": "email@host.com",
+      "menuId": 4,
+      "url": "mailto:email@host.com"
+    },
+    {
+      "id": 12,
+      "title": " Cookie Policy ",
+      "menuId": 3,
+      "url": "/page/cookie-policy"
+    },
+    {
+      "id": 13,
+      "title": "Posts",
+      "menuId": 2,
+      "url": "/posts"
+    },
+    {
+      "id": 14,
+      "title": "Basic Pages",
+      "menuId": 0,
+      "url": "/pages"
+    },
+    {
+      "id": 15,
+      "title": "Contact Form",
+      "menuId": 4,
+      "url": "/page/contact-form"
+    },
+    {
+      "id": 16,
+      "title": "About Me",
+      "menuId": 5,
+      "url": "/page/about-me"
+    },
+    {
+      "id": 17,
+      "title": "Partner with Us",
+      "menuId": 5,
+      "url": "/page/partner-with-us"
+    },
+    {
+      "id": 18,
+      "title": "Jobs",
+      "menuId": 5,
+      "url": "/page/jobs"
+    },
+    {
+      "id": 18,
+      "title": "Reqeust a Demo",
+      "menuId": 7,
+      "url": "/page/request-a-demo"
+    }
+  ],
+  "blog_posts": [
+    {
+      "id": 1,
+      "title": "Mouseover Element",
+      "description": "You’ll see how JavaScript functions work and practice your JavaScript logic",
+      "date": "2/10/2002",
+      "pageURL": "mouseover-element",
+      "promotedToFront": true
+    },
+    {
+      "id": 2,
+      "title": "Clock",
+      "description": "You get hands-on with the kind of actual work you’ll be doing as a JavaScript developer",
+      "date": "7/7/2002",
+      "pageURL": "clock",
+      "promotedToFront": true
+    },
+    {
+      "id": 3,
+      "title": "Magic 8 Ball",
+      "description": "It gives you a solid foundation for how to use Math.random to produce randomized results for JavaScript projects",
+      "date": "7/12/2002",
+      "pageURL": "magic-8-ball",
+      "promotedToFront": false
+    },
+    {
+      "id": 4,
+      "title": "Build a To-Do List",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "build-a-to-do-list",
+      "promotedToFront": true
+    },
+    {
+      "id": 5,
+      "title": "Epic Mix Playlist",
+      "description": "It helps you practice core JavaScript skills, such as forEach loops and event listeners, and work with functions and lists",
+      "date": "7/9/2002",
+      "pageURL": "epic-mix-playlist",
+      "promotedToFront": false
+    },
+    {
+      "id": 6,
+      "title": "Pet Rescue",
+      "description": "It gives you a solid foundation for understanding factory function patterns and parameters ",
+      "date": "6/17/2002",
+      "pageURL": "pet-rescue",
+      "promotedToFront": false
+    },
+    {
+      "id": 7,
+      "title": "Drum Kit",
+      "description": "You can see the interaction between seeing elements on the page and listening to sound and learning how to add and remove elements",
+      "date": "12/22/2002",
+      "pageURL": "drum-kit",
+      "promotedToFront": false
+    },
+    {
+      "id": 8,
+      "title": "Speech Detection Basics",
+      "description": "It gives you a basis for understanding how speech detection works, which is good (and very cool!) to know ",
+      "date": "8/15/2002",
+      "pageURL": "speech-detection-basics",
+      "promotedToFront": true
+    },
+    {
+      "id": 9,
+      "title": "Sticky Navigation",
+      "description": "It teaches you how to keep your elements in a fixed position on a page, which is a skill you might need in your front end developer role ",
+      "date": "7/7/2002",
+      "pageURL": "sticky-navigation",
+      "promotedToFront": false
+    },
+    {
+      "id": 10,
+      "title": "Geolocation",
+      "description": "You can learn more about how to develop for mobile, how geolocation works, and how to test your code using simulators or a different device",
+      "date": "10/24/2002",
+      "pageURL": "geolocation",
+      "promotedToFront": false
+    }
+  ],
+  "basic_page": [
+    {
+      "id": 1,
+      "title": "About Me",
+      "description": "You’ll see how JavaScript functions work and practice your JavaScript logic",
+      "date": "2/10/2002",
+      "pageURL": "about-me"
+    },
+    {
+      "id": 2,
+      "title": "Services",
+      "description": "You get hands-on with the kind of actual work you’ll be doing as a JavaScript developer",
+      "date": "7/7/2002",
+      "pageURL": "services"
+    },
+    {
+      "id": 3,
+      "title": "Contact Info",
+      "description": "It gives you a solid foundation for how to use Math.random to produce randomized results for JavaScript projects",
+      "date": "7/12/2002",
+      "pageURL": "contact-info"
+    },
+    {
+      "id": 4,
+      "title": "Free Quote",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "free-quote"
+    },
+    {
+      "id": 5,
+      "title": "Partner with Us",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "partner-with-us"
+    },
+    {
+      "id": 6,
+      "title": "Jobs",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "jobs"
+    },
+    {
+      "id": 7,
+      "title": "Terms of Service",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "terms-of-service"
+    },
+    {
+      "id": 8,
+      "title": "Privacy Policy",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "privacy-policy"
+    },
+    {
+      "id": 9,
+      "title": "Cookie Policy",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "cookie-policy"
+    },
+    {
+      "id": 10,
+      "title": "Online Form",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "online-form"
+    },
+    {
+      "id": 11,
+      "title": "Contact Form",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "contact-form"
+    },
+    {
+      "id": 11,
+      "title": "Request a Demo",
+      "description": "You’ll beef up your skills at coding interactive lists, which lets users add, remove, and group items",
+      "date": "2/1/2002",
+      "pageURL": "request-a-demo"
     }
   ]
 }
